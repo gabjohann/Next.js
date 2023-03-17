@@ -1,0 +1,1 @@
+Alguns componentes se repetem ao longo das telas do projeto, como exemplo a Navbar e o footer,. Para isso basta criar os componentes dentro da poasta components, na raiz do projeto e chamá-los no arquivo **_app.js**.

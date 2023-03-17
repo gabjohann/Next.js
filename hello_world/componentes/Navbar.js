@@ -4,14 +4,13 @@ export default function Navbar() {
   return (
     <ul>
       <li>
-        <Link href='/products' legacyBehavior>
-          <a>Produtos</a>
-        </Link>
+        <Link href='/'>Home</Link>
       </li>
       <li>
-        <Link href='/about' legacyBehavior>
-          <a>Sobre nós</a>
-        </Link>
+        <Link href='/products'>Produtos</Link>
+      </li>
+      <li>
+        <Link href='/about'>Sobre nós</Link>
       </li>
     </ul>
   );
