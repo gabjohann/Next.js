@@ -1,22 +1,11 @@
-import Link from 'next/link';
+import Navbar from '../../componentes/Navbar';
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello World Next.js</h1>
+      <Navbar />
 
-      <ul>
-        <li>
-          <Link href='/products' legacyBehavior>
-            <a>Produtos</a>
-          </Link>
-        </li>
-        <li>
-          <Link href='/about' legacyBehavior>
-            <a>Sobre nós</a>
-          </Link>
-        </li>
-      </ul>
+      <h1>Hello World Next.js</h1>
     </div>
   );
 }
